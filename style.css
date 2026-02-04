@@ -189,6 +189,15 @@ header {
     font-weight: bold;
   }
 }
+
+main {
+  padding: 2rem 1rem;
+}
+
+footer {
+  background-color: var(--midnight-blue);
+  padding: 4rem 0;
+}
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
