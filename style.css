@@ -308,20 +308,30 @@ footer {
   flex-direction: column;
   align-items: center;
 
-  margin: 1rem auto;
+  width: 100%;
+  margin: 0 auto;
   padding: 4rem 0;
 
+  text-align: center;
+  line-height: 1.15rem;
+
   background-color: var(--midnight-blue);
+
   address {
+    margin: 1rem 0;
     padding: 1rem 0;
     color: var(--soft-white);
 
     span {
       color: var(--champagne-gold);
     }
-    a {
-      color: var(--champagne-gold);
-    }
+  }
+
+  a {
+    color: var(--champagne-gold);
+    text-decoration: none;
+    margin: 1rem auto;
+    padding: 1rem 0;
   }
 }
 /* MEDIA QUERY (medium) */
