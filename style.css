@@ -471,7 +471,7 @@ footer {
       grid-template-rows: 1fr 1fr;
 
       gap: 1rem;
-      margin: 1rem 0;
+      /* margin: 1rem 0; */
 
       section {
         margin: 0;
@@ -493,7 +493,10 @@ footer {
   }
 
   #Gallery {
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
+    div {
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1rem;
+      align-items: center;
+    }
   }
 }
