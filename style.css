@@ -476,10 +476,20 @@ footer {
     }
   }
   main {
+    font-size: 1.1rem;
+    line-height: 1.5;
+
+    h2 {
+      font-size: 2rem;
+    }
     max-width: 65%;
     margin: 0 auto;
   }
+
   #Offerings {
+    h2 {
+      margin: 1rem;
+    }
     div {
       display: grid;
       grid-template-columns: 1fr 1fr;
